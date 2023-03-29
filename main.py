@@ -1,13 +1,13 @@
 import os
 import pathlib
-from person import PersonFactory
+from person import PersonPhones
 
 
 
 def process(dir_name):
-    pf = PersonFactory()
+    pf = PersonPhones()
     path = pathlib.Path(dir_name)
-    with open(path / 'phones.txt', 'w') as f_out:
+    with open(path / 'phones_listing.txt', 'w') as f_out:
         for filename in os.listdir(dir_name):
             phones = []
             if filename.endswith('.json'):
@@ -23,3 +23,4 @@ def process(dir_name):
 
 if __name__ == '__main__':
     process('files')
+    print('Done with the files list. Check phones_listing.txt for results.')
