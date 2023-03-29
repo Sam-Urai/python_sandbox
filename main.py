@@ -23,4 +23,4 @@ def process(dir_name):
 
 if __name__ == '__main__':
     process('files')
-    print('Done with the files list. Check phones_listing.txt for results.')
+    print('Done with the files list. Check phones_listing.txt for the results.')
