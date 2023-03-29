@@ -1,0 +1,15 @@
+{
+   "name":"Alice",
+   "age":22,
+   "contactnumbers":[
+      {
+         "type":"Home",
+         "number":"333 222-000"
+      },
+   ],
+   "spouse":null,
+   "favoriteSports":[
+      "Football",
+      "Cricket"
+   ]
+}

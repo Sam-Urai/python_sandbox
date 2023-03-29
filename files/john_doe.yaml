@@ -1,0 +1,5 @@
+- name: John Doe
+  department: Engineering
+  country: USA
+  age: 28
+  number: 123 - 234 - 345

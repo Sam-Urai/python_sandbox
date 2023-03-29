@@ -1,0 +1,14 @@
+{
+   "name":"Bob",
+   "age":15,
+   "contactnumbers":[
+      {
+         "type":"Home",
+         "number":"222 111-999"
+      },
+   ],
+   "spouse":null,
+   "favoriteSports":[
+      "Football",
+   ]
+}

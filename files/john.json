@@ -1,0 +1,15 @@
+{
+   "name":"John",
+   "age":38,
+   "contactnumbers":[
+      {
+         "type":"Home",
+         "number":"444 333-111"
+      },
+   ],
+   "spouse":null,
+   "favoriteSports":[
+      "Football",
+      "Cricket"
+   ]
+}
